@@ -1,0 +1,43 @@
+Ad-Jacking - If you manage to get stored XSS on a website, just inject your ads in it to make money ;)
+
+Click-Jacking - You can create a hidden overlay on a page to hijack clicks of the victim to perform malicious actions.
+
+Session Hijacking - HTTP cookies can be accessed by JavaScript if the HTTP ONLY flag is not present in the cookies.
+
+Content Spoofing - JavaScript has full access to client side code of a web app and hence you can use it show/modify desired content.
+
+Credential Harvesting - The most fun part. You can use a fancy popup to harvest credentials. WiFi firmware has been updated, re-enter your credentials to authenticate.
+
+Forced Downloads - So the victim isn’t downloading your malicious flash player from absolutely-safe.com? Don’t worry, you will have more luck trying to force a download from the trusted website your victim is visiting.
+
+Crypto Mining - Yes, you can use the victim’s CPU to mine some bitcoin for you!
+
+Bypassing CSRF protection - You can make POST requests with JavaScript, you can collect and submit a CSRF token with JavaScript, what else do you need?
+
+Keylogging - You all know what this is.
+
+Recording Audio - It requires authorization from the user but you access victim’s microphone. Thanks to HTML5 and JavaScript.
+
+Taking pictures - It requires authorization from the user but you access victim’s webcam. Thanks to HTML5 and JavaScript.
+
+Geo-location - It requires authorization from the user but you access victim’s Geo-location. Thanks to HTML5 and JavaScript. Works better with devices with GPS.
+
+Stealing HTML5 web storage data - HTML5 introduced a new feature, web storage. Now a website can store data in the browser for later use and of course, JavaScript can access that storage via window.localStorage() and window.webStorage()
+
+Browser & System Fingerprinting - JavaScript makes it a piece of cake to find your browser name, version, installed plugins and their versions, your operating system, architecture, system time, language and screen resolution.
+
+Network Scanning - Victim’s browser can be abused to scan ports and hosts with JavaScript.
+
+Crashing Browsers - Yes! You can crash browser with flooding them with….stuff.
+
+Stealing Information - Grab information from the webpage and send it to your server. Simple!
+
+Redirecting - You can use javascript to redirect users to a webpage of your choice.
+
+Tab-napping - Just a fancy version of redirection. For example, if no keyboard or mouse events have been received for more than a minute, it could mean that the user is afk and you can sneakily replace the current webpage with a fake one.
+
+Capturing Screenshots - Thanks to HTML5 again, now you can take screenshot of a webpage. Blind XSS detection tools have been doing this before it was cool.
+
+Perform Actions - You are controlling the browser, can’t you feel the power? Got XSS on a social media site? You can send messages, modify information and…..you get the idea.
+
+Next time you find an XSS vulnerability, try submitting an exploit to steal data or stuff as a POC. I am not a bug hunter and I don’t know if that will get you paid more but I think it should.
